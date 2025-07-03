@@ -55,3 +55,4 @@ Ejemplo_Palabra
 ## 🧑‍💻 Resultado final
 
 ![Image](https://github.com/user-attachments/assets/d6a60aa5-2664-4f39-a6f9-c0c4a6e4c5f2)
+![Image](https://github.com/user-attachments/assets/2ed088f8-0a3a-4dba-93a9-e1c00846c6b1)
