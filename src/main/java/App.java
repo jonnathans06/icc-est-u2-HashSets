@@ -1,3 +1,5 @@
+import controller.ContactoController;
+import controller.Ejercicios;
 import controller.Sets;
 
 public class App{
@@ -10,6 +12,9 @@ public class App{
         runHashSetTree(sets);
         runHashSetTreeComparator(sets);
         runHashSetTreeComparatorInverso(sets);
+        runTreeContacto();
+
+        Ejercicios ejercicios = new Ejercicios();
     }
     public static void runHashSet(Sets sets) {
         System.out.println("---Run HashSet---");
@@ -44,5 +49,10 @@ public class App{
         for (String palabra : sets.construirTreeSetConComparadorInverso()) {
             System.out.println(palabra);
         }
+    }
+
+    public static ContactoController runTreeContacto() {
+        System.out.println("------ Contacto orden alfabetico apellido - nombre -----");
+        return new ContactoController();
     }
 }
